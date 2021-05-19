@@ -1,7 +1,9 @@
+![Build Status](https://github.com/yblee85/sort_visualization/workflows/ui_test/badge.svg)
+
 # Simple Sort Visualizer
 
 Simple Sort Visualizer. Nothing fancy, 5 sort types.
-Select Sort Type and Start (you can cancel any time)
+Select Sort Type and Start (you can cancel any time it will pause)
 You can click Reset to original beginning status
 
 ## Available Scripts
