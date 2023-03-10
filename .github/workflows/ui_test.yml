@@ -5,9 +5,9 @@ name: ui_test
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, test_cov ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, test_cov ]
 
 jobs:
   build:
