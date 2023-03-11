@@ -29,8 +29,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run build --if-present
-    - run: npm run test -- --coverage .
-    - run: cp ./coverage/coverage-final.json ./coverage/coverage-summary.json
+    - run: npm run test -- --coverageReporters="json-summary" --coverage .
 
     - name: Update Coverage Badge
       uses: we-cli/coverage-badge-action@main
