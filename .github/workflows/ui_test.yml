@@ -32,5 +32,5 @@ jobs:
     - run: npm run test -- --coverageReporters="json-summary" --coverage .
 
     - name: Update Coverage Badge
-      uses: we-cli/coverage-badge-action@main
+      uses: yblee85/coverage-badge-action@main
       
