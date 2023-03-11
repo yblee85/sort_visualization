@@ -6,4 +6,5 @@ test('renders button ', () => {
     // const linkElement = screen.getByText(/learn react/i);
     const linkElement = screen.getByRole('button');
     expect(linkElement).toBeInTheDocument();
+    expect(true).toBe(false);
 });
