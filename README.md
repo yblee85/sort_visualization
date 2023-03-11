@@ -1,5 +1,5 @@
 ![Build Status](https://github.com/yblee85/sort_visualization/workflows/ui_test/badge.svg)
-+ [![cov](https://yblee85.github.io/sort_visualization/badges/coverage.svg)](https://github.com/yblee85/sort_visualization/actions)
+[![cov](https://yblee85.github.io/sort_visualization/badges/coverage.svg)](https://github.com/yblee85/sort_visualization/actions)
 # Simple Sort Visualizer
 
 Simple Sort Visualizer. Nothing fancy, 5 sort types.
